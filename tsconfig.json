@@ -1,0 +1,21 @@
+// {
+//   "extends": "@react-native/typescript-config",
+//   "compilerOptions": {
+//     "types": ["jest"]
+//   },
+//   "include": ["**/*.ts", "**/*.tsx"],
+//   "exclude": ["**/node_modules", "**/Pods"]
+// }
+
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "types": ["jest"]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "src/types/svg.d.ts"
+  ],
+  "exclude": ["**/node_modules", "**/Pods"]
+}
